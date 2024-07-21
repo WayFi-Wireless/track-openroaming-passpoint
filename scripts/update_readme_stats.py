@@ -47,25 +47,7 @@ stats_table = f"""
 | OpenRoaming Unsettled | {openroaming_unsettled} | Count of devices with RCOI containing '5a03ba' |
 | OpenRoaming Settled | {openroaming_settled} | Count of devices with RCOI containing 'baa2d' but not '5a03ba' |
 | Google Orion Devices | {google_orion_devices} | Count of devices with RCOI containing 'f4f5e8f5f4' |
-| XNET Devices | {xnet_devices} | Count of devices with SSID containing 'XNET' |
-| Helium Devices | {helium_devices} | Count of devices with SSID containing 'Helium Mobile' |
-| Wayru Devices | {wayru_devices} | Count of devices with SSID containing 'Wayru' |
-| MetaBlox Devices | {metablox_devices} | Count of devices with SSID containing 'MetaBlox' |
-| Other Devices | {other_devices} | Count of devices that do not match any of the above categories |
-| Residential Locations | {residential_count} | Count of SSIDs classified as Residential |
-| Business Locations | {business_count} | Count of SSIDs classified as Business |
-| Public Locations | {public_count} | Count of SSIDs classified as Public |
-| Unknown Locations | {unknown_count} | Count of SSIDs classified as Unknown |
 """
-
-# Create markdown table for most common SSIDs
-ssids_table = """
-### Most Common RCOI Enabled SSIDs
-| SSID | Count |
-|------|-------|
-"""
-for ssid, count in common_ssids.items():
-    ssids_table += f"| {ssid} | {count} |\n"
 
 # Read the README file
 with open(readme_path, 'r') as f:
