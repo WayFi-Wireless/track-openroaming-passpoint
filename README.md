@@ -1,13 +1,5 @@
 # Track OpenRoaming Passpoint
 
-A collection of scripts and tools that tracks the availability of Hotspot 2.0, Passpoint, and OpenRoaming networks in the wild.
-
-Pulls from the Wigle.net dataset. 
-
-> **Note**: Information here may not be entirely accurate or complete, but it's the best semi-public dataset available for tracking this kind of information. 
-We've pulled only the US dataset but as this repo updates, it will include the locations from all countries that Wigle supports. 
-The stats are dynamic, we only pull year to date stats. But ultimately we'll update it to do devices mapped in the last 365 days.
-
 <!-- STATS START -->
 
 ### OpenRoaming and Hotspot 2.0 Stats Table
@@ -18,41 +10,17 @@ The stats are dynamic, we only pull year to date stats. But ultimately we'll upd
 | OpenRoaming Unsettled | 3064 | Count of devices with RCOI containing '5a03ba' |
 | OpenRoaming Settled | 42 | Count of devices with RCOI containing 'baa2d' but not '5a03ba' |
 | Google Orion Devices | 7694 | Count of devices with RCOI containing 'f4f5e8f5f4' |
-| XNET Devices | 137 | Count of devices with SSID containing 'XNET' |
-| Helium Devices | 5 | Count of devices with SSID containing 'Helium Mobile' |
-| Wayru Devices | 0 | Count of devices with SSID containing 'Wayru' |
-| MetaBlox Devices | 1 | Count of devices with SSID containing 'MetaBlox' |
-| Other Devices | 3211 | Count of devices that do not match any of the above categories |
-| Residential Locations | 912 | Count of SSIDs classified as Residential |
-| Business Locations | 785 | Count of SSIDs classified as Business |
-| Public Locations | 0 | Count of SSIDs classified as Public |
-| Unknown Locations | 12456 | Count of SSIDs classified as Unknown |
-
-
-### Most Common RCOI Enabled SSIDs
-| SSID | Count |
-|------|-------|
-| BoldynPasspoint | 3125 |
-| Cellular Wi-Fi Passthrough | 1627 |
-| LiveBetter | 1142 |
-| .p | 1000 |
-| OpenRoaming@CLUS | 837 |
-| Xfinity Mobile | 794 |
-| GPGMS_CarrierOffloading | 786 |
-| adco | 595 |
-| Orion | 587 |
-| Passpoint WiFi | 531 |
 
 <!-- STATS END -->
 
 ### OpenRoaming and Hotspot 2.0 Table Mapped
 
-![OpenRoaming and Hotspot 2.0 Table Map](https://github.com/simeononsecurity/track-openroaming-passpoint/blob/main/output/global_wifi_map.png)
+![OpenRoaming and Hotspot 2.0 Table Map](https://github.com/wayfi-wireless/track-openroaming-passpoint/blob/main/output/global_wifi_map.png)
 
 
 ### Interactive Map of HotSpot 2.0 Networks
 
-[![Interactive Map](https://img.shields.io/badge/Interactive%20Map-View%20Here-blue)](https://openroamingmap.simeononsecurity.com)
+[![Interactive Map](https://img.shields.io/badge/Interactive%20Map-View%20Here-blue)](https://www.wayfiwireless.com/openroaming-map)
 
 
 ## Table of Contents
